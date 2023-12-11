@@ -1,0 +1,6 @@
+let number="";
+for(num=0;num<4;num++){
+otp=Math.floor(Math.random()*10);
+number= number+ otp
+}
+console.log("OTP is " + number)
